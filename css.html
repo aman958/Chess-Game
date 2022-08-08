@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHESS BOARD</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        .main{ 
+            border: 2px solid black;
+            width: 100vw;
+            height: 98.8vh;
+            display: grid;
+            grid-template-columns: 170px 170px 170px 170px 170px 170px 170px 170px;
+            grid-template-rows: 78.8px 78.8px 78.8px 78.8px 78.8px 78.8px 78.8px 78.8px;
+            column-gap: 1px;
+            row-gap: 1px;
+        }
+        .b{
+            background-color: white;
+            display: grid;
+            place-items: center;
+        }
+        #box2{
+            background-color: black;
+        }
+        #box4{
+            background-color: black;
+        }
+        #box6{
+            background-color: black;
+        }
+        #box8{
+            background-color: black;
+        }
+        #box9{
+            background-color: black;
+        }
+        #box11{
+            background-color: black;
+        }
+        #box13{
+            background-color: black;
+        }
+        #box15{
+            background-color: black;
+        }
+        #box18{
+            background-color: black;
+        }
+        #box20{
+            background-color: black;
+        }
+        #box22{
+            background-color: black;
+        }
+        #box24{
+            background-color: black;
+        }
+        #box25{
+            background-color: black;
+        }
+        #box27{
+            background-color: black;
+        }
+        #box29{
+            background-color: black;
+        }
+        #box31{
+            background-color: black;
+        }
+        #box34{
+            background-color: black;
+        }
+        #box36{
+            background-color: black;
+        }
+        #box38{
+            background-color: black;
+        }
+        #box40{
+            background-color: black;
+        }
+        #box41{
+            background-color: black;
+        }
+        #box43{
+            background-color: black;
+        }
+        #box45{
+            background-color: black;
+        }
+        #box47{
+            background-color: black;
+        }
+        #box50{
+            background-color: black;
+        }
+        #box52{
+            background-color: black;
+        }
+        #box54{
+            background-color: black;
+        }
+        #box56{
+            background-color: black;
+        }
+        #box57{
+            background-color: black;
+        }
+        #box59{
+            background-color: black;
+        }
+        #box61{
+            background-color: black;
+        }
+        #box63{
+            background-color: black;
+        }
+        /* .chess{
+            text-align: center;
+            font-size: 100px;
+            background-color: black;
+            color: white;
+        } */
+    </style>
+</head>
+<body>
+    <!-- <div class="chess">
+        <h1 class="chess">CHESS BOARD</h1>
+    </div> -->
+    <div class="main">
+        <div class="b" id="box1">
+            <img src="hathi_b-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box2">
+            <img src="ghoda_b-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box3">
+            <img src="uunt_b-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box4">
+            <img src="chess_black-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box5">
+            <img src="king_b-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box6">
+            <img src="uunt_b-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box7">
+            <img src="ghoda_b-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box8">
+            <img src="hathi_b-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box9">
+            <img src="pyada_b-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box10">
+            <img src="pyada_b-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box11">
+            <img src="pyada_b-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box12">
+            <img src="pyada_b-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box13">
+            <img src="pyada_b-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box14">
+            <img src="pyada_b-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box15">
+            <img src="pyada_b-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box16">
+            <img src="pyada_b-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box17"></div>
+        <div class="b" id="box18"></div>
+        <div class="b" id="box19"></div>
+        <div class="b" id="box20"></div>
+        <div class="b" id="box21"></div>
+        <div class="b" id="box22"></div>
+        <div class="b" id="box23"></div>
+        <div class="b" id="box24"></div>
+        <div class="b" id="box25"></div>
+        <div class="b" id="box26"></div>
+        <div class="b" id="box27"></div>
+        <div class="b" id="box28"></div>
+        <div class="b" id="box29"></div>
+        <div class="b" id="box30"></div>
+        <div class="b" id="box31"></div>
+        <div class="b" id="box32"></div>
+        <div class="b" id="box33"></div>
+        <div class="b" id="box34"></div>
+        <div class="b" id="box35"></div>
+        <div class="b" id="box36"></div>
+        <div class="b" id="box37"></div>
+        <div class="b" id="box38"></div>
+        <div class="b" id="box39"></div>
+        <div class="b" id="box40"></div>
+        <div class="b" id="box41"></div>
+        <div class="b" id="box42"></div>
+        <div class="b" id="box43"></div>
+        <div class="b" id="box44"></div>
+        <div class="b" id="box45"></div>
+        <div class="b" id="box46"></div>
+        <div class="b" id="box47"></div>
+        <div class="b" id="box48"></div>
+        <div class="b" id="box49">
+            <img src="pyada_w-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box50">
+            <img src="pyada_w-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box51">
+            <img src="pyada_w-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box52">
+            <img src="pyada_w-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box53">
+            <img src="pyada_w-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box54">
+            <img src="pyada_w-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box55">
+            <img src="pyada_w-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box56">
+            <img src="pyada_w-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box57">
+            <img src="hathi_w-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box58">
+            <img src="ghoda_w-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box59">
+            <img src="uunt_w-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box60">
+            <img src="chess_white-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box61">
+            <img src="king_w-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box62">
+            <img src="uunt_w-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box63">
+            <img src="ghoda_w-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+        <div class="b" id="box64">
+            <img src="hathi_w-removebg-preview.png" alt="#" width="75px" height="75px">
+        </div>
+    </div>
+</body>
+</html>
